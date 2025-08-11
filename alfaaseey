@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f1115;
+    color: #fff;
+}
+header {
+    background-color: #1a1d25;
+    padding: 20px;
+    text-align: center;
+}
+header nav a {
+    margin: 0 10px;
+    color: #00ffd5;
+    text-decoration: none;
+}
+#hero {
+    background: linear-gradient(145deg, #1e1f28, #2c2e3b);
+    padding: 40px;
+    text-align: center;
+}
+#products, #blog, #about {
+    padding: 40px 20px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product {
+    flex: 1 1 200px;
+    background: #292c35;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    background: #1a1d25;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
